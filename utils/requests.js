@@ -3,7 +3,7 @@ const APY_KEY = process.env.APY_KEY;
 export default {
   fetchTrending: {
     title: "Trending",
-    url: `/trneding/all/week?api_key=${APY_KEY}&language=en-US`,
+    url: `/trending/all/week?api_key=${APY_KEY}&language=en-US`,
   },
   fetchTopRated: {
     title: "Top Rated",
